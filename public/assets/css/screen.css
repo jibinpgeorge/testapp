@@ -1,0 +1,40 @@
+body{
+	margin-top: 60px;
+}
+.error-message{
+	color: red;
+}
+.col-bikes{
+	padding: 10px;
+	border-radius: 3px;
+	border:1px solid #ddd;
+	cursor: pointer;
+	margin-bottom: 20px;
+	height: 350px;
+}
+.fa-color-red{
+	color: red;
+	font-size: 26px;
+}
+.hiddenl{
+	display: none;
+}
+.thumbnail {
+    padding:0px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
